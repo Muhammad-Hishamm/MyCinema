@@ -2,15 +2,9 @@
 
 namespace MyCinema.Models
 {
-    public class Actor
+    public class Actor:Person
     {
-        [Key]
-        public int Id { get; set; }
+        public List<Actor_Movie> Movies { get; set; }
 
-        public string FullName { get; set; }
-
-        public string Bio { get; set; }
-
-        public string ProfirlePictureUrl { get; set; }
     }
 }
