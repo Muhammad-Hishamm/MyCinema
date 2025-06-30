@@ -1,3 +1,5 @@
+using MyCinema.Data;
+using Microsoft.EntityFrameworkCore;
 namespace MyCinema
 {
     public class Program
@@ -5,6 +7,13 @@ namespace MyCinema
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+
+            // Adding the DbContext Configurations
+            builder.Services.AddDbContext<AppDbContext>();
+            builder.Services.AddDbContext<AppDbContext>(options =>
+            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
