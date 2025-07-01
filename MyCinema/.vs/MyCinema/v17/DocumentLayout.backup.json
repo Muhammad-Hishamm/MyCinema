@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|c:\\users\\muham\\onedrive\\desktop\\projects\\mycinema\\mycinema\\mycinema\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|solutionrelative:mycinema\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Migrations\\20250701002432_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyCinema\\Migrations\\20250701002432_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|c:\\users\\muham\\onedrive\\desktop\\projects\\mycinema\\mycinema\\mycinema\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|solutionrelative:mycinema\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|c:\\users\\muham\\onedrive\\desktop\\projects\\mycinema\\mycinema\\mycinema\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|solutionrelative:mycinema\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|c:\\users\\muham\\onedrive\\desktop\\projects\\mycinema\\mycinema\\mycinema\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|solutionrelative:mycinema\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|c:\\users\\muham\\onedrive\\desktop\\projects\\mycinema\\mycinema\\mycinema\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|solutionrelative:mycinema\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|c:\\users\\muham\\onedrive\\desktop\\projects\\mycinema\\mycinema\\mycinema\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|solutionrelative:mycinema\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|c:\\users\\muham\\onedrive\\desktop\\projects\\mycinema\\mycinema\\mycinema\\models\\producer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|solutionrelative:mycinema\\models\\producer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|c:\\users\\muham\\onedrive\\desktop\\projects\\mycinema\\mycinema\\mycinema\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|solutionrelative:mycinema\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|c:\\users\\muham\\onedrive\\desktop\\projects\\mycinema\\mycinema\\mycinema\\models\\actor_movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|solutionrelative:mycinema\\models\\actor_movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|c:\\users\\muham\\onedrive\\desktop\\projects\\mycinema\\mycinema\\mycinema\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|solutionrelative:mycinema\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|c:\\users\\muham\\onedrive\\desktop\\projects\\mycinema\\mycinema\\mycinema\\data\\enums\\moviecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|solutionrelative:mycinema\\data\\enums\\moviecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|c:\\users\\muham\\onedrive\\desktop\\projects\\mycinema\\mycinema\\mycinema\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,50 +54,135 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Movie.cs",
-              "RelativeDocumentMoniker": "MyCinema\\Models\\Movie.cs",
-              "ToolTip": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Movie.cs",
-              "RelativeToolTip": "MyCinema\\Models\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "20250701002432_Init.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Migrations\\20250701002432_Init.cs",
+              "RelativeDocumentMoniker": "MyCinema\\Migrations\\20250701002432_Init.cs",
+              "ToolTip": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Migrations\\20250701002432_Init.cs",
+              "RelativeToolTip": "MyCinema\\Migrations\\20250701002432_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T16:57:24.658Z",
+              "WhenOpened": "2025-07-01T00:24:32.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cinema.cs",
-              "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Cinema.cs",
-              "RelativeDocumentMoniker": "MyCinema\\Models\\Cinema.cs",
-              "ToolTip": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Cinema.cs",
-              "RelativeToolTip": "MyCinema\\Models\\Cinema.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\appsettings.json",
+              "RelativeDocumentMoniker": "MyCinema\\appsettings.json",
+              "ToolTip": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\appsettings.json",
+              "RelativeToolTip": "MyCinema\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-30T23:17:05.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Actor_Movie.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Actor_Movie.cs",
+              "RelativeDocumentMoniker": "MyCinema\\Models\\Actor_Movie.cs",
+              "ToolTip": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Actor_Movie.cs",
+              "RelativeToolTip": "MyCinema\\Models\\Actor_Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T16:55:02.464Z",
+              "WhenOpened": "2025-06-30T21:38:12.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Program.cs",
+              "RelativeDocumentMoniker": "MyCinema\\Program.cs",
+              "ToolTip": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Program.cs",
+              "RelativeToolTip": "MyCinema\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T21:04:49.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MyCinema\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "MyCinema\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:53:26.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MovieCategory.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Data\\Enums\\MovieCategory.cs",
+              "RelativeDocumentMoniker": "MyCinema\\Data\\Enums\\MovieCategory.cs",
+              "ToolTip": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Data\\Enums\\MovieCategory.cs",
+              "RelativeToolTip": "MyCinema\\Data\\Enums\\MovieCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:43:26.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "MyCinema\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Movie.cs",
+              "RelativeToolTip": "MyCinema\\Models\\Movie.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T16:57:24.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cinema.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Cinema.cs",
+              "RelativeDocumentMoniker": "MyCinema\\Models\\Cinema.cs",
+              "ToolTip": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Cinema.cs",
+              "RelativeToolTip": "MyCinema\\Models\\Cinema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T16:55:02.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Producer.cs",
               "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Producer.cs",
               "RelativeDocumentMoniker": "MyCinema\\Models\\Producer.cs",
               "ToolTip": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Producer.cs",
               "RelativeToolTip": "MyCinema\\Models\\Producer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T16:54:04.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T16:54:04.751Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "Actor.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Actor.cs",
+              "RelativeDocumentMoniker": "MyCinema\\Models\\Actor.cs",
+              "ToolTip": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Actor.cs",
+              "RelativeToolTip": "MyCinema\\Models\\Actor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T00:59:53.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Person.cs",
               "RelativeDocumentMoniker": "MyCinema\\Models\\Person.cs",
@@ -81,21 +190,7 @@
               "RelativeToolTip": "MyCinema\\Models\\Person.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T16:51:49.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Actor.cs",
-              "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Actor.cs",
-              "RelativeDocumentMoniker": "MyCinema\\Models\\Actor.cs",
-              "ToolTip": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Actor.cs",
-              "RelativeToolTip": "MyCinema\\Models\\Actor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T00:59:53.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T16:51:49.722Z"
             }
           ]
         }

@@ -10,7 +10,7 @@ namespace MyCinema
 
 
             // Adding the DbContext Configurations
-            builder.Services.AddDbContext<AppDbContext>();
+            //builder.Services.AddDbContext<AppDbContext>();
             builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
