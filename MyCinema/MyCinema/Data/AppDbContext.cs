@@ -32,10 +32,11 @@ namespace MyCinema.Data
             // 🔁 Always call base method to preserve EF Core conventions and inheritance behavior
             base.OnModelCreating(modelBuilder);
         }
-        DbSet<Actor> Actors { get; set; }
-        DbSet<Producer> Producer {  get; set; }
-        DbSet<Cinema> Cinemas { get; set; }
-        DbSet<Movie> Movies { get; set; }
-        DbSet<Actor_Movie>Actor_Movies { get; set; }
+
+        public DbSet<Actor> Actors { get; set; }
+        public DbSet<Producer> Producers {  get; set; }
+        public DbSet<Cinema> Cinemas { get; set; }
+        public DbSet<Movie> Movies { get; set; }
+        public DbSet<Actor_Movie>Actor_Movies { get; set; }
     }
 }

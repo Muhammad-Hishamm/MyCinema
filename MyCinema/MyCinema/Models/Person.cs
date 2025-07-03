@@ -8,7 +8,7 @@ namespace MyCinema.Models
         public int Id { get; set; }
         public string FullName { get; set; }
         public string Bio { get; set; }
-        public string ProfirlePictureUrl { get; set; }
+        public string ProfirlePictureURL { get; set; }
 
     }
 
