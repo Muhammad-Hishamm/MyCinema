@@ -19,6 +19,8 @@ namespace MyCinema.Models
 
         // Producer
         public int ProducerId { get; set; }
+
+
         [ForeignKey("ProducerId")]
         public Producer Producer { get; set; }
 
@@ -27,6 +29,8 @@ namespace MyCinema.Models
 
         //Cinema
         public int CinemaId { get; set; }
+
+
         [ForeignKey("CinemaId")]
         public Cinema Cinema { get; set; }
     }

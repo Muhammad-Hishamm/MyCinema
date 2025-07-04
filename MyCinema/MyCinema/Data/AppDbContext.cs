@@ -8,7 +8,8 @@ namespace MyCinema.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // ✅ Define the composite primary key for the join table using both ActorId and MovieId
+            // ✅ Define the composite primary key for the join table using both ActorId and MovieId 
+            // this is Fluent API style for data Configuring 
             modelBuilder.Entity<Actor_Movie>().HasKey(am => new
             {
                 am.ActorId,

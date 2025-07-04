@@ -1,4 +1,6 @@
-﻿namespace MyCinema.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace MyCinema.Models
 {
     public class Actor_Movie
     {
