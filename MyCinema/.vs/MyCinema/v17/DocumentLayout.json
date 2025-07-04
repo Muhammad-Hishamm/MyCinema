@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|c:\\users\\muham\\onedrive\\desktop\\projects\\mycinema\\mycinema\\mycinema\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|solutionrelative:mycinema\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|c:\\users\\muham\\onedrive\\desktop\\projects\\mycinema\\mycinema\\mycinema\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|solutionrelative:mycinema\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|c:\\users\\muham\\onedrive\\desktop\\projects\\mycinema\\mycinema\\mycinema\\controllers\\producercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1687C409-7223-4140-9A01-58888108F228}|MyCinema\\MyCinema.csproj|solutionrelative:mycinema\\controllers\\producercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -90,19 +98,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "MyCinema\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "MyCinema\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T01:08:38.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CinemaController.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Controllers\\CinemaController.cs",
+              "RelativeDocumentMoniker": "MyCinema\\Controllers\\CinemaController.cs",
+              "ToolTip": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Controllers\\CinemaController.cs",
+              "RelativeToolTip": "MyCinema\\Controllers\\CinemaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T01:06:09.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProducerController.cs",
               "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Controllers\\ProducerController.cs",
               "RelativeDocumentMoniker": "MyCinema\\Controllers\\ProducerController.cs",
               "ToolTip": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Controllers\\ProducerController.cs",
               "RelativeToolTip": "MyCinema\\Controllers\\ProducerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T00:59:12.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ActorsController.cs",
               "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Controllers\\ActorsController.cs",
               "RelativeDocumentMoniker": "MyCinema\\Controllers\\ActorsController.cs",
@@ -114,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "MyCinema\\Data\\AppDbContext.cs",
@@ -126,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Actor.cs",
               "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Actor.cs",
               "RelativeDocumentMoniker": "MyCinema\\Models\\Actor.cs",
@@ -138,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Actor_Movie.cs",
               "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Actor_Movie.cs",
               "RelativeDocumentMoniker": "MyCinema\\Models\\Actor_Movie.cs",
@@ -150,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "MyCinema\\Models\\Movie.cs",
@@ -162,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Person.cs",
               "RelativeDocumentMoniker": "MyCinema\\Models\\Person.cs",
@@ -174,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Producer.cs",
               "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Producer.cs",
               "RelativeDocumentMoniker": "MyCinema\\Models\\Producer.cs",
@@ -186,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AppDbInitializer.cs",
               "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Data\\AppDbInitializer.cs",
               "RelativeDocumentMoniker": "MyCinema\\Data\\AppDbInitializer.cs",
@@ -194,12 +228,11 @@
               "RelativeToolTip": "MyCinema\\Data\\AppDbInitializer.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAMwAYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T17:45:57.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T17:45:57.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Program.cs",
               "RelativeDocumentMoniker": "MyCinema\\Program.cs",
@@ -211,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Cinema.cs",
               "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Models\\Cinema.cs",
               "RelativeDocumentMoniker": "MyCinema\\Models\\Cinema.cs",
@@ -223,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "dbo.Producers.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/MUHAMMAD_HISHAM_SQLEXPRESS/ecommerce_app_db/True/SqlTable/dbo.Producers.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/MUHAMMAD_HISHAM_SQLEXPRESS/ecommerce_app_db/True/SqlTable/dbo.Producers.sql",
@@ -232,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "dbo.Movies.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/MUHAMMAD_HISHAM_SQLEXPRESS/ecommerce_app_db/True/SqlTable/dbo.Movies.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/MUHAMMAD_HISHAM_SQLEXPRESS/ecommerce_app_db/True/SqlTable/dbo.Movies.sql",
@@ -241,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "dbo.Cinemas.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/MUHAMMAD_HISHAM_SQLEXPRESS/ecommerce_app_db/True/SqlTable/dbo.Cinemas.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/MUHAMMAD_HISHAM_SQLEXPRESS/ecommerce_app_db/True/SqlTable/dbo.Cinemas.sql",
@@ -250,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "dbo.Actor_Movies.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/MUHAMMAD_HISHAM_SQLEXPRESS/ecommerce_app_db/True/SqlTable/dbo.Actor_Movies.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/MUHAMMAD_HISHAM_SQLEXPRESS/ecommerce_app_db/True/SqlTable/dbo.Actor_Movies.sql",
@@ -259,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "20250703010652_updateColumsNames.cs",
               "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Migrations\\20250703010652_updateColumsNames.cs",
               "RelativeDocumentMoniker": "MyCinema\\Migrations\\20250703010652_updateColumsNames.cs",
@@ -271,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "dbo.Actors.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/MUHAMMAD_HISHAM_SQLEXPRESS/ecommerce_app_db/True/SqlTable/dbo.Actors.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/MUHAMMAD_HISHAM_SQLEXPRESS/ecommerce_app_db/True/SqlTable/dbo.Actors.sql",
@@ -280,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "MovieCategory.cs",
               "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Data\\Enums\\MovieCategory.cs",
               "RelativeDocumentMoniker": "MyCinema\\Data\\Enums\\MovieCategory.cs",
@@ -292,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\appsettings.json",
               "RelativeDocumentMoniker": "MyCinema\\appsettings.json",
@@ -304,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "20250701002432_Init.cs",
               "DocumentMoniker": "C:\\Users\\muham\\OneDrive\\Desktop\\projects\\MyCinema\\MyCinema\\MyCinema\\Migrations\\20250701002432_Init.cs",
               "RelativeDocumentMoniker": "MyCinema\\Migrations\\20250701002432_Init.cs",
