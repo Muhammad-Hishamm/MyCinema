@@ -13,8 +13,8 @@ namespace MyCinema.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var data = await _context.Movies.ToListAsync();
-            return View();
+            var MoviesList = await _context.Movies.Include(movie=>movie.Cinema).ToListAsync();
+            return View(MoviesList);
         }
     }
 }

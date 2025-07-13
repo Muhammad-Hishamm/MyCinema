@@ -13,8 +13,8 @@ namespace MyCinema.Controllers
         }
         public IActionResult Index()
         {
-            var data = _context.Actors.ToList();
-            return View(data);
+            var ActorsList = _context.Actors.ToList();
+            return View(ActorsList);
         }
     }
 }
