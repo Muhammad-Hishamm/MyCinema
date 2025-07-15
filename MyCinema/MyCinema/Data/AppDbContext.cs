@@ -8,23 +8,18 @@ namespace MyCinema.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // ✅ Define the composite primary key for the join table using both ActorId and MovieId 
-            // this is Fluent API style for data Configuring 
             modelBuilder.Entity<Actor_Movie>().HasKey(am => new
             {
                 am.ActorId,
                 am.MovieId
             });
 
-            // 🎬 Set up relationship: each Actor_Movie entry is linked to one Movie
-            // One Movie can appear in multiple Actor_Movie records
             modelBuilder.Entity<Actor_Movie>()
                 .HasOne(am => am.Movie)                         // navigation property to Movie
                 .WithMany(m => m.Actors)                // Movie has a collection of Actor_Movie
                 .HasForeignKey(am => am.MovieId);              // foreign key pointing to MovieId
 
-            // 🎭 Set up relationship: each Actor_Movie entry is linked to one Actor
-            // One Actor can appear in multiple Actor_Movie records
+
             modelBuilder.Entity<Actor_Movie>()
                 .HasOne(am => am.Actor)                         // navigation property to Actor
                 .WithMany(a => a.Movies)                // Actor has a collection of Actor_Movie
