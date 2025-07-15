@@ -1,20 +1,25 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyCinema.Data;
+using MyCinema.Data.Services;
 
 namespace MyCinema.Controllers
 {
     public class ActorsController : Controller
     {
-        private readonly AppDbContext _context;
-
-        public ActorsController(AppDbContext context)
+        private readonly IActorServices _services;
+        public ActorsController(IActorServices  services)
         {
-            _context = context;
+            _services = services;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var ActorsList = _context.Actors.ToList();
+            var ActorsList =await _services.GetAllActors();
             return View(ActorsList);
+        }
+
+        public IActionResult Create()
+        {
+            return View();
         }
     }
 }
