@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MyCinema.Models;
 
 namespace MyCinema.Data.Services
@@ -10,10 +11,10 @@ namespace MyCinema.Data.Services
         public AcotrServices(AppDbContext context) {
             _context = context;
         }
-        public void Add(Actor actor)
+        public async Task AddAsync(Actor actor)
         {
-            _context.Add(actor);
-            _context.SaveChanges();
+            await _context.AddAsync(actor);
+            await _context.SaveChangesAsync();
         }
 
         public void Delete(int id)
@@ -21,12 +22,14 @@ namespace MyCinema.Data.Services
             throw new NotImplementedException();
         }
 
-        public Actor GetActor(int id)
+        public async Task<Actor> GetActorByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            var actor = await _context.Actors.FirstOrDefaultAsync(act =>  act.Id == id);
+            return actor;
+            
         }
 
-        public async Task<IEnumerable<Actor>> GetAllActors()
+        public async Task<IEnumerable<Actor>> GetAllActorsAsync()
         {
             var actors = await _context.Actors.ToListAsync();
             return actors;

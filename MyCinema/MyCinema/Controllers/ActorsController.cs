@@ -14,7 +14,7 @@ namespace MyCinema.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var ActorsList =await _services.GetAllActors();
+            var ActorsList =await _services.GetAllActorsAsync();
             return View(ActorsList);
         }
 
@@ -30,9 +30,15 @@ namespace MyCinema.Controllers
             {
                 return View(actor);
             }
-            _services.Add(actor);
+            await  _services.AddAsync(actor);
             return RedirectToAction(nameof(Index));
+        }
 
+        public async Task<IActionResult> Details(int id)
+        {
+            var actorDetails =await  _services.GetActorByIdAsync(id);
+            if (actorDetails == null) return View("Empty");
+            return View (actorDetails);
         }
     }
 }
