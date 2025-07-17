@@ -51,6 +51,11 @@ https://www.dotnethow.net/images/actors/actor-3.jpeg
 
 @section Scripts {
     <script>
+        $(document).ready(function () {
+            var output = document.getElementById('ProfilePicturePreview');
+            output.src = $("#ProfilePictureURL").val();
+        })
+
         $("#ProfilePictureURL").on("change", function () {
             var output = document.getElementById('ProfilePicturePreview');
             output.src = $(this).val();
