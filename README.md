@@ -1,8 +1,4 @@
-Here is a `README.md` file tailored for the [Complete E-Commerce ASP.NET MVC Application](https://github.com/Muhammad-Hishamm/MyCinema.git) hosted on GitHub. You can copy this content directly into a `README.md` file in the root of your project directory:
 
----
-
-````markdown
 # 🛒 Complete E-Commerce ASP.NET MVC Application
 
 A full-featured e-commerce web application built using **ASP.NET MVC 8.0**, **Entity Framework**, and **Microsoft SQL Server**. This project simulates a real online store with product management, user authentication, a shopping cart, and checkout functionality.
