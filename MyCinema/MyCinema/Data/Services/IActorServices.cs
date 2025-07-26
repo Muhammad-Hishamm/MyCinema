@@ -7,7 +7,7 @@ namespace MyCinema.Data.Services
         Task<IEnumerable<Actor>> GetAllActorsAsync();
         Task<Actor> GetActorByIdAsync(int id);
         Task AddAsync(Actor actor);
-        Actor Update(int id, Actor actor);
+        Task<Actor> UpdateAsync(int id, Actor actor);
         void Delete(int id);
     }
 }
