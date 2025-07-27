@@ -25,18 +25,18 @@ namespace MyCinema.Controllers
             return View();
         }
 
-
         [HttpPost]
-        public async Task<IActionResult> Create ([Bind("FullName,ProfilePictureURL,Bio")]Actor actor)
+        public async Task<IActionResult> Create([Bind("FullName,ProfilePictureURL,Bio")] Actor actor)
         {
             if (!ModelState.IsValid)
             {
                 return View(actor);
             }
-            await  _services.AddAsync(actor);
+            await _services.AddAsync(actor);
             return RedirectToAction(nameof(Index));
         }
-         
+
+
 
         public async Task<IActionResult> Details(int id)
         {
