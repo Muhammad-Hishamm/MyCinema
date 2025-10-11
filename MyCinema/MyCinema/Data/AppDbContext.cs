@@ -15,15 +15,15 @@ namespace MyCinema.Data
             });
 
             modelBuilder.Entity<Actor_Movie>()
-                .HasOne(am => am.Movie)                         // navigation property to Movie
+                .HasOne(am => am.Movie)                  // navigation property to Movie
                 .WithMany(m => m.Actors)                // Movie has a collection of Actor_Movie
-                .HasForeignKey(am => am.MovieId);              // foreign key pointing to MovieId
+                .HasForeignKey(am => am.MovieId);       // foreign key pointing to MovieId
 
 
             modelBuilder.Entity<Actor_Movie>()
-                .HasOne(am => am.Actor)                         // navigation property to Actor
+                .HasOne(am => am.Actor)                  // navigation property to Actor
                 .WithMany(a => a.Movies)                // Actor has a collection of Actor_Movie
-                .HasForeignKey(am => am.ActorId);              // foreign key pointing to ActorId
+                .HasForeignKey(am => am.ActorId);       // foreign key pointing to ActorId
 
             // 🔁 Always call base method to preserve EF Core conventions and inheritance behavior
             base.OnModelCreating(modelBuilder);

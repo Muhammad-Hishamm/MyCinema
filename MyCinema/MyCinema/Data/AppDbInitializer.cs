@@ -20,31 +20,31 @@ namespace MyCinema.Data
                         new Cinema()
                         {
                             Name = "Cinema 1",
-                            Logo = "http://dotnethow.net/images/cinemas/cinema-1.jpeg",
+                            Logo = "Images/Cinemas/Cenima1.jpg",
                             Description = "This is the description of the first cinema"
                         },
                         new Cinema()
                         {
                             Name = "Cinema 2",
-                            Logo = "http://dotnethow.net/images/cinemas/cinema-2.jpeg",
+                            Logo = "Images/Cinemas/Cenima2.jpg",
                             Description = "This is the description of the first cinema"
                         },
                         new Cinema()
                         {
                             Name = "Cinema 3",
-                            Logo = "http://dotnethow.net/images/cinemas/cinema-3.jpeg",
+                            Logo = "Images/Cinemas/Cenima3.jpg",
                             Description = "This is the description of the first cinema"
                         },
                         new Cinema()
                         {
                             Name = "Cinema 4",
-                            Logo = "http://dotnethow.net/images/cinemas/cinema-4.jpeg",
+                            Logo = "Images/Cinemas/Cenima4.jpg",
                             Description = "This is the description of the first cinema"
                         },
                         new Cinema()
                         {
                             Name = "Cinema 5",
-                            Logo = "http://dotnethow.net/images/cinemas/cinema-5.jpeg",
+                            Logo = "Images/Cinemas/Cenima5.jpg",
                             Description = "This is the description of the first cinema"
                         },
                     });
@@ -60,32 +60,32 @@ namespace MyCinema.Data
                         {
                             FullName = "Producer 1",
                             Bio = "This is the Bio of the first actor",
-                            ProfilePictureURL = "http://dotnethow.net/images/producers/producer-1.jpeg"
+                            ProfilePictureURL = "Images/Producers/producer1.jpeg"
 
                         },
                         new Producer()
                         {
                             FullName = "Producer 2",
                             Bio = "This is the Bio of the second actor",
-                            ProfilePictureURL = "http://dotnethow.net/images/producers/producer-2.jpeg"
+                            ProfilePictureURL = "Images/Producers/producer2.jpeg"
                         },
                         new Producer()
                         {
                             FullName = "Producer 3",
                             Bio = "This is the Bio of the second actor",
-                            ProfilePictureURL = "http://dotnethow.net/images/producers/producer-3.jpeg"
+                            ProfilePictureURL = "Images/Producers/producer3.jpeg"
                         },
                         new Producer()
                         {
                             FullName = "Producer 4",
                             Bio = "This is the Bio of the second actor",
-                            ProfilePictureURL = "http://dotnethow.net/images/producers/producer-4.jpeg"
+                            ProfilePictureURL = "Images/Producers/producer4.jpeg"
                         },
                         new Producer()
                         {
                             FullName = "Producer 5",
                             Bio = "This is the Bio of the second actor",
-                            ProfilePictureURL = "http://dotnethow.net/images/producers/producer-5.jpeg"
+                            ProfilePictureURL = "Images/Producers/producer5.jpeg"
                         }
                     });
                     context.SaveChanges();
@@ -97,34 +97,34 @@ namespace MyCinema.Data
                     {
                         new Actor()
                         {
-                            FullName = "Actor 1",
+                            FullName = "Amer Khan",
                             Bio = "This is the Bio of the first actor",
-                            ProfilePictureURL = "http://dotnethow.net/images/actors/actor-1.jpeg"
+                            ProfilePictureURL = "Images/Actors/amerKhan.png"
 
                         },
                         new Actor()
                         {
-                            FullName = "Actor 2",
+                            FullName = "Dwayne Johnson",
                             Bio = "This is the Bio of the second actor",
-                            ProfilePictureURL = "http://dotnethow.net/images/actors/actor-2.jpeg"
+                            ProfilePictureURL = "Images/Actors/dwayneJohnson.jpeg"
                         },
                         new Actor()
                         {
-                            FullName = "Actor 3",
+                            FullName = "Emma Stone",
                             Bio = "This is the Bio of the second actor",
-                            ProfilePictureURL = "http://dotnethow.net/images/actors/actor-3.jpeg"
+                            ProfilePictureURL = "Images/Actors/emastone.jpeg"
                         },
                         new Actor()
                         {
-                            FullName = "Actor 4",
+                            FullName = "Keanu Reeves",
                             Bio = "This is the Bio of the second actor",
-                            ProfilePictureURL = "http://dotnethow.net/images/actors/actor-4.jpeg"
+                            ProfilePictureURL = "Images/Actors/johnweek.jpg"
                         },
                         new Actor()
                         {
-                            FullName = "Actor 5",
+                            FullName = "Robert Downey",
                             Bio = "This is the Bio of the second actor",
-                            ProfilePictureURL= "http://dotnethow.net/images/actors/actor-5.jpeg"
+                            ProfilePictureURL= "Images/Actors/robertDowney.jpg"
                         }
                     });
                     context.SaveChanges();
@@ -137,22 +137,22 @@ namespace MyCinema.Data
                     {
                         new Movie()
                         {
-                            Name = "Life",
+                            Name = "A Beautiful Mind",
                             Description = "This is the Life movie description",
                             Price = 39.50,
-                            ImageURL = "http://dotnethow.net/images/movies/movie-3.jpeg",
+                            ImageURL = "Images/movies/ABeautifulMind.jpeg",
                             StartDate = DateTime.Now.AddDays(-10),
                             EndDate = DateTime.Now.AddDays(10),
                             CinemaId = 3,
                             ProducerId = 3,
-                            Category = MovieCategory.Documentary
+                            Category = MovieCategory.Drama
                         },
                         new Movie()
                         {
                             Name = "The Shawshank Redemption",
                             Description = "This is the Shawshank Redemption description",
                             Price = 29.50,
-                            ImageURL = "http://dotnethow.net/images/movies/movie-1.jpeg",
+                            ImageURL = "Images/movies/ShawshankRedemption.jpeg",
                             StartDate = DateTime.Now,
                             EndDate = DateTime.Now.AddDays(3),
                             CinemaId = 1,
@@ -161,10 +161,10 @@ namespace MyCinema.Data
                         },
                         new Movie()
                         {
-                            Name = "Ghost",
-                            Description = "This is the Ghost movie description",
+                            Name = "Good Will Hunting",
+                            Description = "This is the good will hunting movie description",
                             Price = 39.50,
-                            ImageURL = "http://dotnethow.net/images/movies/movie-4.jpeg",
+                            ImageURL = "Images/movies/goodwillhunting.jpeg",
                             StartDate = DateTime.Now,
                             EndDate = DateTime.Now.AddDays(7),
                             CinemaId = 4,
@@ -173,10 +173,10 @@ namespace MyCinema.Data
                         },
                         new Movie()
                         {
-                            Name = "Race",
-                            Description = "This is the Race movie description",
+                            Name = "The Green Mile",
+                            Description = "This is the Green Mile movie description",
                             Price = 39.50,
-                            ImageURL = "http://dotnethow.net/images/movies/movie-6.jpeg",
+                            ImageURL = "Images/movies/thegreenmile.jpeg",
                             StartDate = DateTime.Now.AddDays(-10),
                             EndDate = DateTime.Now.AddDays(-5),
                             CinemaId = 1,
@@ -185,10 +185,10 @@ namespace MyCinema.Data
                         },
                         new Movie()
                         {
-                            Name = "Scoob",
-                            Description = "This is the Scoob movie description",
-                            Price = 39.50,
-                            ImageURL = "http://dotnethow.net/images/movies/movie-7.jpeg",
+                            Name = "Cruella",
+                            Description = "This is the cruella movie description",
+                            Price = 49.50,
+                            ImageURL = "Images/movies/cruella.jpeg",
                             StartDate = DateTime.Now.AddDays(-10),
                             EndDate = DateTime.Now.AddDays(-2),
                             CinemaId = 1,
@@ -197,10 +197,10 @@ namespace MyCinema.Data
                         },
                         new Movie()
                         {
-                            Name = "Cold Soles",
+                            Name = "Forest Jump",
                             Description = "This is the Cold Soles movie description",
                             Price = 39.50,
-                            ImageURL = "http://dotnethow.net/images/movies/movie-8.jpeg",
+                            ImageURL = "Images/movies/forestjump.jpeg",
                             StartDate = DateTime.Now.AddDays(3),
                             EndDate = DateTime.Now.AddDays(20),
                             CinemaId = 1,
