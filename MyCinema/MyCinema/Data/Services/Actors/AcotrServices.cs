@@ -2,13 +2,13 @@
 using Microsoft.EntityFrameworkCore;
 using MyCinema.Models;
 
-namespace MyCinema.Data.Services
+namespace MyCinema.Data.Services.Actors
 {
-    public class AcotrServices : IActorServices
+    public class ActorServices : IActorServices
     {
         private readonly AppDbContext _context;
 
-        public AcotrServices(AppDbContext context) {
+        public ActorServices(AppDbContext context) {
             _context = context;
         }
         public async Task AddAsync(Actor actor)
@@ -17,19 +17,21 @@ namespace MyCinema.Data.Services
             await _context.SaveChangesAsync();
         }
 
-        public void Delete(int id)
+        public async Task DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var actor = await _context.Actors.FirstOrDefaultAsync(x => x.Id == id); 
+            _context.Actors.Remove(actor);
+            await _context.SaveChangesAsync();
         }
 
-        public async Task<Actor> GetActorByIdAsync(int id)
+        public async Task<Actor> GetByIdAsync(int id)
         {
             var actor = await _context.Actors.FirstOrDefaultAsync(act =>  act.Id == id);
             return actor;
             
         }
 
-        public async Task<IEnumerable<Actor>> GetAllActorsAsync()
+        public async Task<IEnumerable<Actor>> GetAllAsync()
         {
             var actors = await _context.Actors.ToListAsync();
             return actors;

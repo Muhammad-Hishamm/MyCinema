@@ -1,6 +1,8 @@
 using MyCinema.Data;
 using Microsoft.EntityFrameworkCore;
-using MyCinema.Data.Services;
+using MyCinema.Data.Services.Actors;
+using MyCinema.Data.Services.Producers;
+using MyCinema.Data.Services.Cinemas;
 namespace MyCinema
 {
     public class Program
@@ -14,8 +16,11 @@ namespace MyCinema
             //builder.Services.AddDbContext<AppDbContext>();
             builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-            
-            builder.Services.AddScoped<IActorServices, AcotrServices>();    
+
+            builder.Services.AddScoped<IActorServices, ActorServices>();
+            builder.Services.AddScoped<IProducerServices, ProducerServices>();
+            builder.Services.AddScoped<ICinemaServices, CinemaServices>();
+
 
 
             // Add services to the container.

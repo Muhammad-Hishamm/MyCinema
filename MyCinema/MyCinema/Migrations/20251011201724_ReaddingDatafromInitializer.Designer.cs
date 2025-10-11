@@ -12,8 +12,8 @@ using MyCinema.Data;
 namespace MyCinema.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250701002432_Init")]
-    partial class Init
+    [Migration("20251011201724_ReaddingDatafromInitializer")]
+    partial class ReaddingDatafromInitializer
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -39,9 +39,10 @@ namespace MyCinema.Migrations
 
                     b.Property<string>("FullName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
-                    b.Property<string>("ProfirlePictureUrl")
+                    b.Property<string>("ProfilePictureURL")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -111,7 +112,7 @@ namespace MyCinema.Migrations
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<string>("ImageURL")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -119,14 +120,14 @@ namespace MyCinema.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
 
                     b.Property<int>("ProducerId")
                         .HasColumnType("int");
 
-                    b.Property<DateOnly>("StarDate")
-                        .HasColumnType("date");
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
@@ -151,15 +152,16 @@ namespace MyCinema.Migrations
 
                     b.Property<string>("FullName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
-                    b.Property<string>("ProfirlePictureUrl")
+                    b.Property<string>("ProfilePictureURL")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Producer");
+                    b.ToTable("Producers");
                 });
 
             modelBuilder.Entity("MyCinema.Models.Actor_Movie", b =>
