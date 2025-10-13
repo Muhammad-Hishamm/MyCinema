@@ -37,7 +37,6 @@ namespace MyCinema.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-
         // get details
         public async Task<IActionResult> Details(int id)
         {

@@ -4,10 +4,6 @@
     ViewData["Title"] = "Add a new actor";
 }
 
-@* 
-this link to test the actorPicture Perview
-https://www.dotnethow.net/images/actors/actor-3.jpeg
-*@
 
 
 <div class="row text">
@@ -18,8 +14,6 @@ https://www.dotnethow.net/images/actors/actor-3.jpeg
         <div class="row">
             <div class="col-md-8 offset-2">
                 <form asp-action="Create" asp-controller="Actors" method="POST">
-                    @* @using (Html.BeginForm("Createe", "Actors", FormMethod.Post))
-                    { *@
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
                         <div class="form-group text-center">
@@ -45,7 +39,6 @@ https://www.dotnethow.net/images/actors/actor-3.jpeg
                             <input type="submit" value="Create" class="btn btn-outline-success float-end" />
                             <a class="btn btn-outline-secondary" asp-action="Index">Show All</a>
                         </div>
-                    @* } *@
                 </form>
             </div>
         </div>

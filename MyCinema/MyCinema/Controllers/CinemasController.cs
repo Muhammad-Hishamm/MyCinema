@@ -28,7 +28,7 @@ namespace MyCinema.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create([Bind("FullName,ProfilePictureURL,Bio")] Cinema Cenima)
+        public async Task<IActionResult> Create([Bind("Name,Logo,Description")] Cinema Cenima)
         {
             if (!ModelState.IsValid)
             {

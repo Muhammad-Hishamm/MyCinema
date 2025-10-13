@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MyCinema",
+    "\\MyCinema\\Views",
+    "\\MyCinema\\Views\\Actors",
+    "\\MyCinema\\Views\\Movies"
+  ],
+  "SelectedNode": "\\MyCinema\\Views\\Movies\\Create.cshtml",
+  "PreviewInSolutionExplorer": false
+}
